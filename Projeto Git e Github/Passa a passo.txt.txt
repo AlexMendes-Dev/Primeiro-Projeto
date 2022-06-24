@@ -1,0 +1,10 @@
+Passa a passo para enviar repositorio da maquina para o Git.
+
+* Depois de ter criado o repositorio no github,abrir gitbash e  copiar link  https, e com o comando git clone, copiar link na frente do comando.
+*Proximo comando, cd ( nome do repositorio), para entrar na pasta.
+* Próximo comando, git status, para saber se o repositorio está ok, estando tudo certo, volta na pasta na maquina e criar um arquivo txt.
+* Nesta pasta colocar todas as anotações que vier a calhar.
+* Voltar no gitbash, comando git status, vai aparecer a nova pasta criada na maquina, essa descrição referente essa pasta deve esta em vermelho, sinalizando que foi criada mais ainda não esta no repositorio remoto.
+* Comando git add. , no git bash,para adicionar todos os arquivos, depois git status novamente para indentificar que a pasta foi adicionada.
+* Proximo passo, git commit -m, aonde iremos colocar um mensagem coerente referente ao repositorio.
+*Proximo passo, comando git push, para puxar os arquivos da amaquina apaea o repoitorio do github.
